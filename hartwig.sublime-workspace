@@ -1,0 +1,416 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"img",
+				"img	HTML - Image"
+			],
+			[
+				"FFF",
+				"FFF744"
+			],
+			[
+				"FF",
+				"FFF744"
+			],
+			[
+				"colo",
+				"color7"
+			],
+			[
+				"lorem",
+				"lorem	lorem - Medium paragraph"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"Snippet: top-nav",
+				"Snippet: top-nav"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 602.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ben/rails_projects/seawolfdev/Gemfile",
+		"/home/ben/rails_projects/seawolfdev/app/assets/javascripts/application.js",
+		"/home/ben/rails_projects/seawolfdev/app/assets/stylesheets/application.css.scss",
+		"/home/ben/rails_projects/seawolfdev/app/views/layouts/_nav.html.haml",
+		"/home/ben/rails_projects/seawolfdev/config/routes.rb",
+		"/home/ben/rails_projects/seawolfdev/config/application.rb",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/javascript.html",
+		"/home/ben/rails_projects/seawolfdev/app/controllers/application_controller.rb",
+		"/home/ben/rails_projects/seawolfdev/config/environments/production.rb",
+		"/home/ben/rails_projects/seawolfdev/tmp/cache/assets/production/sass/241cfdcd94278db1a56fcaab6f4772fdf512a134/_pager.scssc",
+		"/home/ben/rails_projects/seawolfdev/app/views/pages/home.html.haml",
+		"/home/ben/rails_projects/seawolfdev/app/controllers/pages_controller.rb",
+		"/home/ben/rails_projects/seawolfdev/app/views/pages/contact.html.haml",
+		"/home/ben/rails_projects/seawolfdev/app/views/layouts/application.html.haml",
+		"/home/ben/rails_projects/seawolfdev/app/assets/stylesheets/variables.css.scss",
+		"/home/ben/rails_projects/seawolfdev/app/assets/stylesheets/universal.css.scss",
+		"/home/ben/rails_projects/seawolfdev/app/views/devise/mailer/reset_password_instructions.html.haml",
+		"/home/ben/rails_projects/seawolfdev/app/views/pages/about.html.haml",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/examples/non-responsive/non-responsive.css",
+		"/home/ben/.config/sublime-text-3/Packages/User/html-comm.sublime-snippet",
+		"/home/ben/Seawolf/banana-pancakes/index.haml",
+		"/home/ben/Seawolf/banana-pancakes/assets/css/bootstrap.css",
+		"/home/ben/Seawolf/banana-pancakes/assets/css/large.css",
+		"/home/ben/Seawolf/banana-pancakes/assets/css/medium.css",
+		"/home/ben/Seawolf/banana-pancakes/assets/css/small.css",
+		"/home/ben/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/ben/.config/sublime-text-3/Packages/User/css-comm.sublime-snippet",
+		"/*.sublime-snippet",
+		"/home/ben/.config/sublime-text-3/Packages/User/top-nav.sublime-snippet",
+		"/home/ben/Seawolf/spot/theme/index.html",
+		"/home/ben/.config/sublime-text-3/Packages/User/fixed-nav.sublime-snippet",
+		"/home/ben/rails_projects/seawolfdev/bin/bundle",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/dist/css/bootstrap-theme.css",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/_layouts/home.html",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/about.html",
+		"/home/ben/rails_projects/seawolfdev/spec/controllers/contact_controller_spec.rb",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/css.html",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/_includes/nav-main.html",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/_includes/nav-getting-started.html",
+		"/home/ben/rails_projects/seawolfdev/app/views/layouts/_footer.html.haml",
+		"/home/ben/rails_projects/seawolfdev/public/index.html.haml",
+		"/home/ben/rails_projects/seawolfdev/app/controllers/contact_controller.rb",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/index.html",
+		"/home/ben/rails_projects/seawolfdev/app/views/devise/mailer/confirmation_instructions.html.haml",
+		"/home/ben/rails_projects/seawolfdev/seawolfdev.sublime-project",
+		"/home/ben/rails_projects/seawolfdev/app/helpers/application_helper.rb",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/docs-assets/js/jszip.js",
+		"/home/ben/rails_projects/seawolfdev/config/initializers/backtrace_silencers.rb",
+		"/home/ben/rails_projects/seawolfdev/app/mailers/emailer.rb",
+		"/home/ben/rails_projects/seawolfdev/public/assets/manifest-a9ffc53a43b0effc89c5ef2a890f3635.json",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/js/modal.js",
+		"/home/ben/rails_projects/seawolfdev/log/production.log",
+		"/home/ben/rails_projects/seawolfdev/app/mailers/contact.rb",
+		"/home/ben/rails_projects/seawolfdev/config/environment.rb",
+		"/home/ben/rails_projects/seawolfdev/app/views/emailer/contact_email.html.erb",
+		"/home/ben/rails_projects/seawolfdev/app/views/contact/contact_email.html.erb",
+		"/home/ben/rails_projects/seawolfdev/config/locales/en.yml",
+		"/home/ben/rails_projects/seawolfdev/app/views/contact/index.html.haml",
+		"/home/ben/rails_projects/seawolfdev/config/initializers/contact_us.rb",
+		"/home/ben/rails_projects/seawolfdev/config.ru",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/examples/navbar/navbar.css",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/_includes/footer.html",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/examples/sticky-footer/sticky-footer.css",
+		"/home/ben/rails_projects/seawolfdev/Rakefile",
+		"/home/ben/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/CONTRIBUTING.md",
+		"/home/ben/rails_projects/seawolfdev/features/content.feature",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/_includes/nav-about.html",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/_includes/header.html",
+		"/home/ben/rails_projects/seawolfdev/app/views/devise/mailer/unlock_instructions.html.haml",
+		"/home/ben/rails_projects/seawolfdev/sass-twitter-bootstrap/docs-assets/js/uglify.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"btn",
+			"button",
+			"a:link",
+			"color4",
+			"a",
+			"link",
+			"margin-top: -",
+			"		.",
+			"-",
+			"a ",
+			"\n						",
+			"font-size",
+			"$color1"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "hartwig.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"variables",
+				"app/assets/stylesheets/variables.css.scss"
+			],
+			[
+				"universl",
+				"app/assets/stylesheets/universal.css.scss"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"application.js",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"application.css",
+				"app/assets/stylesheets/application.css.scss"
+			],
+			[
+				"home",
+				"app/views/pages/home.html.haml"
+			],
+			[
+				"nav",
+				"app/views/layouts/_nav.html.haml"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"controller",
+				"app/controllers/pages_controller.rb"
+			],
+			[
+				"universal",
+				"app/assets/stylesheets/universal.css.scss"
+			],
+			[
+				"about",
+				"app/views/pages/about.html.haml"
+			],
+			[
+				"application.html",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"variab",
+				"app/assets/stylesheets/variables.css.scss"
+			],
+			[
+				"contact",
+				"app/views/pages/contact.html.haml"
+			],
+			[
+				"var",
+				"app/assets/stylesheets/variables.css.scss"
+			],
+			[
+				"",
+				"app/views/pages/about.html.haml"
+			],
+			[
+				"home.html",
+				"app/views/pages/home.html.haml"
+			],
+			[
+				"about.html.haml",
+				"app/views/pages/about.html.haml"
+			],
+			[
+				"univers",
+				"app/assets/stylesheets/universal.css.scss"
+			],
+			[
+				"application.html.haml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"contact.html",
+				"app/views/pages/contact.html.haml"
+			],
+			[
+				"home.",
+				"app/views/pages/home.html.haml"
+			],
+			[
+				"applicationhtml",
+				"app/views/layouts/application.html.haml"
+			],
+			[
+				"footer",
+				"app/views/layouts/_footer.html.haml"
+			],
+			[
+				"mail",
+				"app/mailers/emailer.rb"
+			],
+			[
+				"production.rb",
+				"config/environments/production.rb"
+			],
+			[
+				"application.rb",
+				"config/application.rb"
+			],
+			[
+				"emailer",
+				"app/mailers/emailer.rb"
+			],
+			[
+				"contact_controller",
+				"app/controllers/contact_controller.rb"
+			],
+			[
+				"environment.rb",
+				"config/environment.rb"
+			],
+			[
+				"controll",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"footer.html.haml",
+				"app/views/layouts/_footer.html.haml"
+			],
+			[
+				"nav.html",
+				"app/views/layouts/_nav.html.haml"
+			],
+			[
+				"home.html.haml",
+				"app/views/pages/home.html.haml"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Seawolf/banana-pancakes/banana-pancakes.sublime-project"
+			],
+			[
+				"hon",
+				"~/.config/sublime-text-3/Projects/honey_pot.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

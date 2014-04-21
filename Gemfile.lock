@@ -82,6 +82,8 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.3)
     execjs (2.0.2)
+    factory_girl (4.4.0)
+      activesupport (>= 3.0.0)
     ffi (1.9.3)
     formatador (0.2.4)
     foundation-rails (5.2.2.0)
@@ -192,6 +194,7 @@ GEM
     rb-fsevent (0.9.4)
     rb-inotify (0.9.3)
       ffi (>= 0.5.0)
+    rb-readline (0.5.1)
     rdoc (4.1.1)
       json (~> 1.4)
     ref (1.0.5)
@@ -276,6 +279,7 @@ DEPENDENCIES
   database_cleaner (= 1.0.1)
   devise
   email_spec
+  factory_girl
   foundation-rails
   guard-bundler
   guard-cucumber
@@ -297,6 +301,7 @@ DEPENDENCIES
   rb-fchange
   rb-fsevent
   rb-inotify
+  rb-readline (~> 0.5.0)
   rspec-rails
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)

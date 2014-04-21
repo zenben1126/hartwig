@@ -31,11 +31,13 @@ group :development do
   gem 'rb-fchange', :require=>false
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
+  gem "rb-readline", "~> 0.5.0"
 end
 group :development, :test do
   gem 'pry-rails'
   gem 'pry-rescue'
   gem 'rspec-rails'
+  gem 'factory_girl'
 end
 group :test do
   gem 'capybara'
