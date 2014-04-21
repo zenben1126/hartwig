@@ -48,5 +48,5 @@ group :test do
   gem 'email_spec'
   gem 'launchy'
   gem 'machinist'
-  gem 'factory_girl'
+  gem 'factory_girl_rails'
 end

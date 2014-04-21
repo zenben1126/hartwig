@@ -85,6 +85,9 @@ GEM
     execjs (2.0.2)
     factory_girl (4.4.0)
       activesupport (>= 3.0.0)
+    factory_girl_rails (4.4.1)
+      factory_girl (~> 4.4.0)
+      railties (>= 3.0.0)
     ffi (1.9.3)
     formatador (0.2.4)
     foundation-rails (5.2.2.0)
@@ -294,7 +297,7 @@ DEPENDENCIES
   database_cleaner (= 1.0.1)
   devise
   email_spec
-  factory_girl
+  factory_girl_rails
   foundation-rails
   guard-bundler
   guard-cucumber

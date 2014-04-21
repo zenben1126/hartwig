@@ -28,26 +28,10 @@
 	"buffers":
 	[
 		{
-			"file": "config/routes.rb",
+			"file": "features/step_definitions/user_steps.rb",
 			"settings":
 			{
-				"buffer_size": 158,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/application.html.haml",
-			"settings":
-			{
-				"buffer_size": 688,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/environments/development.rb",
-			"settings":
-			{
-				"buffer_size": 2040,
+				"buffer_size": 4328,
 				"line_ending": "Unix"
 			}
 		},
@@ -55,7 +39,7 @@
 			"file": "config/environments/production.rb",
 			"settings":
 			{
-				"buffer_size": 3954,
+				"buffer_size": 3957,
 				"line_ending": "Unix"
 			}
 		},
@@ -64,6 +48,22 @@
 			"settings":
 			{
 				"buffer_size": 1464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/environments/development.rb",
+			"settings":
+			{
+				"buffer_size": 2043,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_navigation.html.haml",
+			"settings":
+			{
+				"buffer_size": 351,
 				"line_ending": "Unix"
 			}
 		}
@@ -108,10 +108,26 @@
 	},
 	"file_history":
 	[
-		"/home/ben/rails_projects/hartwig/spec/controllers/users_controller_spec.rb",
+		"/home/ben/rails_projects/hartwig/bin/spring",
+		"/home/ben/rails_projects/hartwig/app/assets/javascripts/application.js",
+		"/home/ben/rails_projects/hartwig/features/step_definitions/email_steps.rb",
+		"/home/ben/rails_projects/hartwig/config/environment.rb",
 		"/home/ben/rails_projects/hartwig/Gemfile",
-		"/home/ben/rails_projects/hartwig/db/production.sqlite3",
+		"/home/ben/rails_projects/hartwig/features/users/user_edit.feature",
+		"/home/ben/rails_projects/hartwig/app/models/user.rb",
+		"/home/ben/rails_projects/hartwig/spec/factories.rb",
+		"/home/ben/rails_projects/hartwig/features/users/sign_in.feature",
+		"/home/ben/rails_projects/hartwig/app/views/layouts/_navigation_links.html.erb",
+		"/home/ben/rails_projects/hartwig/app/views/devise/passwords/new.html.erb",
+		"/home/ben/rails_projects/hartwig/config/routes.rb",
+		"/home/ben/rails_projects/hartwig/app/views/layouts/application.html.haml",
+		"/home/ben/rails_projects/hartwig/config/environments/development.rb",
 		"/home/ben/rails_projects/hartwig/config/environments/production.rb",
+		"/home/ben/rails_projects/hartwig/config/environments/test.rb",
+		"/home/ben/rails_projects/hartwig/db/test.sqlite3",
+		"/home/ben/rails_projects/hartwig/features/step_definitions/user_steps.rb",
+		"/home/ben/rails_projects/hartwig/spec/controllers/users_controller_spec.rb",
+		"/home/ben/rails_projects/hartwig/db/production.sqlite3",
 		"/home/ben/rails_projects/hartwig/hartwig.sublime-project",
 		"/home/ben/rails_projects/hartwig/db/development.sqlite3",
 		"/home/ben/rails_projects/hartwig/config/database.yml",
@@ -121,7 +137,6 @@
 		"/home/ben/rails_projects/hartwig/config/initializers/session_store.rb",
 		"/home/ben/rails_projects/hartwig/config/initializers/cookies_serializer.rb",
 		"/home/ben/rails_projects/hartwig/config/initializers/mime_types.rb",
-		"/home/ben/rails_projects/hartwig/app/assets/javascripts/application.js",
 		"/home/ben/rails_projects/seawolfdev/Gemfile",
 		"/home/ben/rails_projects/seawolfdev/app/assets/javascripts/application.js",
 		"/home/ben/rails_projects/seawolfdev/app/assets/stylesheets/application.css.scss",
@@ -211,6 +226,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sign_in",
 			"btn",
 			"button",
 			"a:link",
@@ -241,24 +257,28 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "config/routes.rb",
+					"file": "features/step_definitions/user_steps.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 158,
+						"buffer_size": 4328,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3772,
+								3772
+							],
+							[
+								3897,
+								3897
 							]
 						],
 						"settings":
@@ -307,104 +327,136 @@
 								"bh_tag_open",
 								"bh_tag_close"
 							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/layouts/application.html.haml",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 688,
-						"regions":
-						{
-						},
-						"selection":
-						[
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close"
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
 							],
-							"syntax": "Packages/Rails/Ruby Haml.tmLanguage",
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2970.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "config/environments/development.rb",
+					"buffer": 1,
+					"file": "config/environments/production.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2040,
+						"buffer_size": 3957,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3084,
+								3084
 							]
 						],
 						"settings":
@@ -453,95 +505,125 @@
 								"bh_tag_open",
 								"bh_tag_close"
 							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 306.0,
+						"translation.y": 1146.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "config/environments/production.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3954,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3103,
-								3103
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 1071.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 2,
 					"file": "config/secrets.yml",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1464,
@@ -609,7 +691,257 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "config/environments/development.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1444,
+								1444
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/_navigation.html.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 351,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -617,7 +949,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -653,7 +985,7 @@
 	"project": "hartwig.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -662,7 +994,15 @@
 		"selected_items":
 		[
 			[
-				"produc",
+				"secrets",
+				"config/secrets.yml"
+			],
+			[
+				"development",
+				"config/environments/development.rb"
+			],
+			[
+				"production.rb",
 				"config/environments/production.rb"
 			],
 			[
@@ -670,8 +1010,36 @@
 				"Gemfile"
 			],
 			[
+				"navigation",
+				"app/views/layouts/_navigation_links.html.erb"
+			],
+			[
+				"navigation_links",
+				"app/views/layouts/_navigation_links.html.erb"
+			],
+			[
+				"nav",
+				"app/views/layouts/_navigation.html.haml"
+			],
+			[
+				"routes",
+				"config/routes.rb"
+			],
+			[
+				"test.rb",
+				"config/environments/test.rb"
+			],
+			[
+				"environ",
+				"config/environment.rb"
+			],
+			[
 				"development.rb",
 				"config/environments/development.rb"
+			],
+			[
+				"produc",
+				"config/environments/production.rb"
 			],
 			[
 				"css",
@@ -684,10 +1052,6 @@
 			[
 				"application.haml",
 				"app/views/layouts/application.html.haml"
-			],
-			[
-				"routes",
-				"config/routes.rb"
 			],
 			[
 				"variables",
@@ -708,10 +1072,6 @@
 			[
 				"home",
 				"app/views/pages/home.html.haml"
-			],
-			[
-				"nav",
-				"app/views/layouts/_nav.html.haml"
 			],
 			[
 				"controller",
@@ -782,10 +1142,6 @@
 				"app/mailers/emailer.rb"
 			],
 			[
-				"production.rb",
-				"config/environments/production.rb"
-			],
-			[
 				"application.rb",
 				"config/application.rb"
 			],
@@ -826,12 +1182,12 @@
 		"selected_items":
 		[
 			[
-				"seawl",
+				"",
 				"~/rails_projects/seawolfdev/seawolfdev.sublime-project"
 			],
 			[
-				"",
-				"~/Seawolf/banana-pancakes/banana-pancakes.sublime-project"
+				"seawl",
+				"~/rails_projects/seawolfdev/seawolfdev.sublime-project"
 			],
 			[
 				"hon",
