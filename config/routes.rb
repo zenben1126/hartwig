@@ -29,6 +29,8 @@
 
 Hartwig::Application.routes.draw do
 
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   root :to => "home#index"
   get '/pack', to: 'packs#build'
   get '/pack_index', to: 'packs#index'

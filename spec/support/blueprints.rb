@@ -15,3 +15,7 @@ end
 Pack.blueprint do
   # Attributes here
 end
+
+AdminUser.blueprint do
+  # Attributes here
+end
