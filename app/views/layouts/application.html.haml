@@ -12,6 +12,12 @@
   %body
     %header
       = render 'layouts/navigation'
-    %main{:role => "main"}
       = render 'layouts/messages'
-      = yield
+    %main{:role => "main"}
+      -if @home
+        = yield
+      -else
+        .row
+          .small-12
+            =yield
+
