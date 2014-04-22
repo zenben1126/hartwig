@@ -51,3 +51,5 @@ group :test do
   gem 'factory_girl_rails'
   gem 'turnip'
 end
+
+gem 'rails_12factor', group: :production
