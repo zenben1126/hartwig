@@ -52,4 +52,4 @@ group :test do
   gem 'turnip'
 end
 
-gem 'rails_12factor', group: :production
+gem 'rails_12factor'
