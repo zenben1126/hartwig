@@ -11,7 +11,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140421104508) do
+ActiveRecord::Schema.define(version: 20140422170132) do
+
+  create_table "packs", force: true do |t|
+    t.date     "created_on"
+    t.integer  "packs"
+    t.integer  "user_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "packs", ["user_id", "created_on"], name: "index_packs_on_user_id_and_created_on", unique: true
 
   create_table "users", force: true do |t|
     t.string   "email",                  default: "", null: false

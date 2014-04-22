@@ -18,6 +18,7 @@ gem 'therubyracer', :platform=>:ruby
 gem 'thin'
 gem 'heroku'
 gem 'pg'
+gem 'activeadmin', github: 'gregbell/active_admin'
 
 group :development do
   gem 'better_errors'
@@ -43,10 +44,10 @@ group :development, :test do
 end
 group :test do
   gem 'capybara'
-  gem 'cucumber-rails', :require=>false
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
   gem 'launchy'
   gem 'machinist'
   gem 'factory_girl_rails'
+  gem 'turnip'
 end
