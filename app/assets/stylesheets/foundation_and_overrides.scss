@@ -144,8 +144,8 @@ $secondary-font: Lato;
 		// $header-text-rendering: optimizeLegibility;
 
 		// We use these to control header font sizes
-		// $h1-font-size: rem-calc(44);
-		// $h2-font-size: rem-calc(37);
+		 $h1-font-size: rem-calc(70);
+		 $h2-font-size: rem-calc(32);
 		// $h3-font-size: rem-calc(27);
 		// $h4-font-size: rem-calc(23);
 		// $h5-font-size: rem-calc(18);
@@ -1399,8 +1399,12 @@ $secondary-font: Lato;
 			padding-top: 100px;
 			padding-bottom: 100px;
 			
-			h1 {
+			h1, h2, h3, h4, h5 {
 				color: white;
+				font-family: $primary-font;
+			}
+
+			h1 {
 				font-size: rem-calc(70);
 				line-height: 1.1;
 			}
