@@ -29,12 +29,19 @@
 
 Hartwig::Application.routes.draw do
 
+
+  #Devise
+  devise_for :users, :controllers => {:registrations => "registrations", omniauth_callbacks: "omniauth_callbacks"}
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
+
+  #Links
   root :to => "home#index"
   get '/pack', to: 'packs#build'
   get '/pack_index', to: 'packs#index'
-  devise_for :users, :controllers => {:registrations => "registrations"}
+
+  #Resources
   resources :users
   resources :packs, only: [:create]
 end
