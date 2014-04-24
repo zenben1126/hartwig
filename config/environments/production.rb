@@ -49,7 +49,7 @@ Rails.application.configure do
   # config.log_tags = [ :subdomain, :uuid ]
 
   # Use a different logger for distributed setups.
-   config.logger = Logger.new(STDOUT)
+  # config.logger = ActiveSupport::TaggedLogging.new(SyslogLogger.new)
 
   # Use a different cache store in production.
   # config.cache_store = :mem_cache_store
@@ -81,9 +81,7 @@ Rails.application.configure do
     :domain =>         'hartwig.herokuapp.com',
     :authentication => :plain
   }
-
-
-  }
+}
 
   # ActionMailer Config
   ActionMailer::Base.delivery_method = :smtp
