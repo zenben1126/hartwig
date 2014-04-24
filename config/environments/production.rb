@@ -72,7 +72,7 @@ Rails.application.configure do
   # Send deprecation notices to registered listeners.
   config.active_support.deprecation = :notify
 
-  config.action_mailer.smtp_settings = {
+
   ActionMailer::Base.smtp_settings = {    
     :port =>           '587',
     :address =>        'smtp.mandrillapp.com',
@@ -81,7 +81,6 @@ Rails.application.configure do
     :domain =>         'hartwig.herokuapp.com',
     :authentication => :plain
   }
-}
 
   # ActionMailer Config
   ActionMailer::Base.delivery_method = :smtp
