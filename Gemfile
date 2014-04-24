@@ -10,6 +10,8 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 gem 'devise'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
 gem 'foundation-rails'
 gem 'haml-rails'
 gem 'pundit'
@@ -36,6 +38,7 @@ group :development do
   gem 'rb-inotify', :require=>false
   gem "rb-readline", "~> 0.5.0"
   gem 'sqlite3'
+  gem "nifty-generators"
 end
 group :development, :test do
   gem 'pry-rails'
