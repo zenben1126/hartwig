@@ -21,6 +21,8 @@
 #  confirmation_sent_at   :datetime
 #  unconfirmed_email      :string(255)
 #  role                   :integer
+#  provider               :string(255)
+#  uid                    :string(255)
 #
 
 require 'spec_helper'
