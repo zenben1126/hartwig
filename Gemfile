@@ -22,6 +22,7 @@ gem 'thin'
 gem 'heroku'
 gem 'pg'
 gem 'activeadmin', github: 'gregbell/active_admin'
+gem 'unicorn'
 
 group :development do
   gem 'better_errors'

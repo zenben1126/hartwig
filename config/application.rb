@@ -35,5 +35,7 @@ module Hartwig
     # For Foundation 5
     config.assets.precompile += %w( vendor/modernizr )
 
+    config.logger = Logger.new(STDOUT)
+
   end
 end
